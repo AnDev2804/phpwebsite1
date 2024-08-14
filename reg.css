@@ -1,0 +1,57 @@
+.page
+{
+    background-color: rgb(89, 179, 149);
+}
+.tit1{
+    color: white;
+    animation-name:anim1;
+    animation-duration:1s;
+    position:relative;
+}
+@keyframes anim1
+{
+    0% {left: -4000px; top:auto;}
+    100% {left: 0px; top:auto;}
+}
+.tit2{
+    color: white;
+    animation-name:anim2;
+    animation-duration:2s;
+    position:relative;
+}
+@keyframes anim2
+{
+    0% {left: -4000px; top:auto;}
+    100% {left: 0px; top:auto;}
+}
+.tit3{
+    color: white;
+    animation-name:anim3;
+    animation-duration:3s;
+    position:relative;
+}
+@keyframes anim3
+{
+    0% {left: -4000px; top:auto;}
+    100% {left: 0px; top:auto;}
+}
+.tit4{
+    color: white;
+    border:1px solid rgb(2, 109, 77);
+    border-radius: 20px;
+    background-color: rgb(2, 109, 77);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    font-style: italic;
+    animation-name:anim4;
+    animation-duration:4s;
+    position:relative;
+}
+@keyframes anim4
+{
+    0% {left: -4000px; top:auto;}
+    100% {left: 0px; top:auto;}
+}

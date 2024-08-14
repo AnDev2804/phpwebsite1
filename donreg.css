@@ -1,0 +1,63 @@
+body
+{
+    background-color: rgb(101, 201, 167);
+    
+}
+
+h1
+{
+    padding: 30px;
+    animation-name: head1;
+    animation-duration: 2s;
+    position: relative;
+}
+@keyframes head1 
+{
+    0% {bottom: 4000px;}
+    100% {bottom: 0px;}    
+}
+.tabla
+{
+    background-color: rgb(55, 110, 94);
+    color: rgb(253, 253, 253);
+    animation-name: tabl;
+    animation-duration: 5s;
+    position: relative;
+}
+@keyframes tabl 
+{
+    0% {left: -4000px;top: auto;}
+    100% {left: 0px;top: auto;}    
+}
+h3
+{
+    padding: 30px;
+}
+.tabla2
+{
+    padding: 30px;
+}
+.volver
+{
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(51, 104, 86);
+    border-radius: 20px;
+    animation-name: back;
+    animation-duration: 3s;
+    position: relative;
+}
+@keyframes back 
+{
+    0% {left: -4000px;top: auto;}
+    100% {left: 0px;top: auto;}    
+}
+.error
+{
+    font-size: xx-large;
+    text-align: center;
+    color: red;
+}

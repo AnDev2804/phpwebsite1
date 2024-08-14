@@ -1,0 +1,8 @@
+A/a;COLOR DE OJOS (Oscuros/Claros)
+B/b;COLOR DE PIEL (Clara/Oscura)
+C/c;ESTATURA (Alta/Baja)
+D/d;COLOR DE CABELLO (Oscuro/Castaño)
+E/e;CONTEXTURA (Delgada/Gruesa)
+F/f;FORMA DE CARA (Perfilada/Redonda)
+G/g;MASA MUSCULAR (Normal/Atlética)
+H/h;VELLOSIDAD (Normal/Exceso)
