@@ -1,0 +1,41 @@
+<?php
+    require('fpdf/fpdf.php');
+	$pdf = new FPDF();	
+	$pdf->AddPage();	
+	$pdf->SetFont('Arial','',12);	
+    $pdf->Ln();
+    $pdf->Cell(0,14,"FENOTIPO",1,0,'C');
+    $pdf->Ln();
+	$pdf->Cell(40,14,"FACTOR",1,0,'C');
+	$pdf->Cell(150,14,"SIGNIFICADO",1,0,'C');
+    $pdf->Ln();
+	$fen=fopen("FENOTIPO.txt","r");
+	while(!feof($fen))
+	{
+		$let=trim(fgets($fen));
+		$a1=explode(";",$let);
+		$pdf->Cell(40,6,utf8_decode($a1[0]),1,0,'C');
+		$pdf->Cell(150,6,utf8_decode($a1[1]),1);
+		$pdf->Ln();
+	}
+    fclose($fen);
+    $pdf->Ln();
+    $pdf->Ln();
+    $pdf->Ln();
+    $pdf->Cell(0,14,"INMUNIDAD",1,0,'C');
+    $pdf->Ln();
+	$pdf->Cell(40,14,"FACTOR",1,0,'C');
+	$pdf->Cell(150,14,"SIGNIFICADO",1,0,'C');
+    $pdf->Ln();
+	$inm=fopen("INMUNIDAD.txt","r");
+	while(!feof($inm))
+	{
+		$l=trim(fgets($inm));
+		$a2=explode(";",$l);
+		$pdf->Cell(40,6,utf8_decode($a2[0]),1,0,'C');
+		$pdf->Cell(150,6,utf8_decode($a2[1]),1);
+		$pdf->Ln();
+	}
+    $pdf->Output();
+    fclose($inm);
+?>

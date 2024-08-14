@@ -1,0 +1,73 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+html
+{
+    text-align: center;
+    animation-name: cuerpo;
+    animation-duration: 1s;
+    position: relative;
+    background-color: rgb(60, 60, 206);
+}
+body
+{
+    animation-name: cuerpo;
+    animation-duration: 1s;
+    position: relative;
+    background-color: rgb(60, 60, 206);
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+a:hover
+{
+    color: rgb(0, 6, 185);
+}
+#divi0
+{
+    border-bottom: 3px solid black;
+}
+#divi1
+{
+    border-bottom: 3px solid black;
+}
+#divi2
+{
+    border-bottom: 3px solid black;
+}
+#boton0
+{
+    margin-left: 25px;
+}
+#boton1
+{
+    background-color: rgb(143, 0, 0);
+    margin-bottom: 131px;
+    border-color: black;
+}
+#boton1:hover
+{
+    background-color: rgb(255, 105, 105);
+}
+.pie
+{
+    animation-name: cuerpo;
+    animation-duration: 1s;
+    position: relative;
+    border-top: 5px solid rgb(77, 77, 255);
+    color: white;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 20px;
+    bottom: 0;
+    width: 100%;
+}
+@keyframes cuerpo 
+{
+    0% {left: -9000px; top:auto;}
+    100% {left: 0px;top: auto;}
+}

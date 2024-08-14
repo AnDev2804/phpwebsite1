@@ -1,0 +1,38 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+html body
+{
+    animation-name: cuerpo;
+    animation-duration: 1s;
+    position: relative;
+    background-color: rgb(122, 122, 255);
+}
+body
+{
+    margin-top: auto;
+}
+div
+{
+    border-bottom: 3px solid black;
+}
+a
+{
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: rgb(151, 255, 169);
+    padding: 10px;
+    color:black;
+}
+a:hover
+{
+    background-color: rgb(56, 93, 62);
+    color: red;
+}
+@keyframes cuerpo 
+{
+    0% {right: -9000px; top:auto;}
+    100% {right: 0px;top: auto;}
+}
